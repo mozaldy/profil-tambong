@@ -1,0 +1,7 @@
+CRITICAL - 2022-01-07 00:29:40 --> Trying to access array offset on value of type null
+#0 D:\Web\htdocs\ProfileNew\app\Controllers\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\Web\\htdocs\\P...', 23)
+#1 D:\Web\htdocs\ProfileNew\system\CodeIgniter.php(824): App\Controllers\Login->cek_login()
+#2 D:\Web\htdocs\ProfileNew\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\Web\htdocs\ProfileNew\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Web\htdocs\ProfileNew\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,4 @@
+@ECHO OFF
+setlocal DISABLEDELAYEDEXPANSION
+SET BIN_TARGET=%~dp0/rector
+php "%BIN_TARGET%" %*
